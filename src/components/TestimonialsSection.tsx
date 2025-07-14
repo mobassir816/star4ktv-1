@@ -106,7 +106,10 @@ export function TestimonialsSection() {
             >
               <motion.img 
                 src={testimonial} 
-                alt={`Client testimonial ${(index % 8) + 1}`} 
+                alt="" 
+                role="presentation"
+                loading="lazy"
+                data-noindex="true"
                 className="w-full h-full object-contain transition-all duration-300 ease-out"
                 style={{ willChange: 'transform, filter' }}
                 whileHover={{ 

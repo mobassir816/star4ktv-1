@@ -82,7 +82,7 @@ export function PricingSection() {
             "@type": "Product",
             "name": "Star4KTV IPTV Streaming Service",
             "description": "Premium IPTV streaming service with live channels and OTT platforms",
-            "image": "https://star4ktv.com/star4ktv_logo.png",
+            "image": "https://star4ktv.com/st.png",
             "brand": {
               "@type": "Brand",
               "name": "Star4KTV"

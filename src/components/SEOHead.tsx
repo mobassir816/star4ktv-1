@@ -13,7 +13,7 @@ export function SEOHead({
   title, 
   description, 
   keywords, 
-  image = "https://star4ktv.com/star4ktv_logo.png", 
+  image = "https://star4ktv.com/st.png", 
   url = "https://star4ktv.com/",
   structuredData 
 }: SEOHeadProps) {
@@ -50,6 +50,9 @@ export function SEOHead({
     
     const ogImage = document.querySelector('meta[property="og:image"]');
     if (ogImage) ogImage.setAttribute('content', image);
+    
+    const ogImageAlt = document.querySelector('meta[property="og:image:alt"]');
+    if (ogImageAlt) ogImageAlt.setAttribute('content', 'Star4KTV Logo - Premium IPTV Streaming Service');
     
     const ogUrl = document.querySelector('meta[property="og:url"]');
     if (ogUrl) ogUrl.setAttribute('content', url);

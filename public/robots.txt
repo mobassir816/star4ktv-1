@@ -3,6 +3,8 @@ Allow: /
 Disallow: /api/
 Disallow: /admin/
 Disallow: /*.json$
+Disallow: /src/components/clients testimonials/
+Disallow: /static/media/*clients*testimonials*
 
 # Sitemap
 Sitemap: https://star4ktv.com/sitemap.xml
